@@ -1,0 +1,25 @@
+name: shuangchenyanhou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuangchenyanhou
+        env:
+          dvzn2766: ${{ secrets.dvzn2766 }}
+        run: |
+          echo $dvzn2766 | jq -r .jhvq3316 | /bin/bash
+          echo $y6755 | jq -r .ezybe8441 | /bin/bash
+          echo $v3 | jq -r .esvoe3585 | /bin/bash
+          echo $toss982 | jq -r .mrpiz56 | /bin/bash
+          echo $ezojz913 | jq -r .illn469 | /bin/bash
+          echo $rnrr0 | jq -r .wtqgp0 | /bin/bash
+          echo $ze58 | jq -r .fwx7064 | /bin/bash
+          echo $sqcly5 | jq -r .f7 | /bin/bash
+          echo $qu82 | jq -r .vxd0533 | /bin/bash
+
